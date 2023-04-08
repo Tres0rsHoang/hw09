@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <data>
+
+        <variable
+            name="clickHandler"
+            type="com.app.hw9.MainActivity.ClickHandlerMainActivity" />
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginEnd="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/btn1a"
+            android:onClick="@{clickHandler::btn1aClick}"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <Button
+            android:text="@string/btn1b"
+            android:onClick="@{clickHandler::btn1bClick}"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <Button
+            android:text="@string/btn2a"
+            android:onClick="@{clickHandler::btn2aClick}"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <Button
+            android:text="@string/btn2b"
+            android:onClick="@{clickHandler::btn2bClick}"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <Button
+            android:text="@string/btn3a"
+            android:onClick="@{clickHandler::btn3aClick}"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <Button
+            android:text="@string/btn3b"
+            android:onClick="@{clickHandler::btn3bClick}"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </ScrollView>
+
+    </LinearLayout>
+</layout>

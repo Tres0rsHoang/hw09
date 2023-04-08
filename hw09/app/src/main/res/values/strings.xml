@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hw9</string>
+    <string name="btn1a">Start Service4 (Music Player)</string>
+    <string name="btn1b">Stop Service4 (Music Player)</string>
+    <string name="btn2a">Start Service5 (Fibonacci)</string>
+    <string name="btn2b">Stop Service5 (Fibonacci)</string>
+    <string name="btn3a">Start Service6 (GPS Fix)</string>
+    <string name="btn3b">Stop Service6 (GPS Fix)</string>
+</resources>
